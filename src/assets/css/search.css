@@ -1,0 +1,82 @@
+.search {
+	height: 44px;
+	position: absolute;
+	left: 44px;
+	right: 44px;
+	display: flex;
+}
+
+.search .input-box {
+	height: 44px;
+	width: 100%;
+	position: relative;
+	padding: 7px 0;
+}
+
+.search .txt {
+	width: 100%;
+	height: 30px;
+	padding: 0 10px 0 34px;
+	background: rgba(255, 255, 255, .25);
+	color: #fff;
+	border-radius: 30px;
+}
+
+.search .txt::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, .75);
+}
+
+.search .i-sousuo {
+	width: 24px;
+	height: 24px;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	margin-top: -12px;
+	font-family: "iconfont";
+}
+
+.search .i-sousuo:before {
+	content: "\e821";
+}
+
+.h-menu {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 21px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	color: #fff;
+	font-family: "iconfont";
+}
+
+.h-menu:before {
+	content: "\e81b";
+}
+
+.clearInput {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-family: "iconfont";
+	font-size: .36rem;
+	flex-direction: column;
+	justify-content: center;
+	color: rgba(0, 0, 0, .25);
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.clearInput:before {
+	content: '\e820';
+}

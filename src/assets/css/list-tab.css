@@ -1,0 +1,92 @@
+/*list-tab start*/
+
+.list-tab {
+	position: relative;
+}
+
+.list-tab:before,
+.list-tab:after {
+	z-index: 2;
+	background: #e5e8ea;
+}
+
+.list-tab .item {
+	background: #FFF;
+	position: relative;
+}
+
+.list-tab .tap {
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .28rem;
+	padding: 0 .24rem;
+	display: flex;
+}
+
+.list-tab .tap:after {
+	content: "";
+	height: 1px;
+	background: #e5e8ea;
+	position: absolute;
+	z-index: 5;
+	bottom: 0;
+	left: .24rem;
+	right: 0;
+	transform: scaleY(0.5);
+	-webkit-transform: scaleY(0.5);
+}
+
+.list-tab .item:last-child .tap:after {
+	display: none;
+}
+
+
+.list-tab .img-icon {
+	width: .48rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	margin-right: .24rem;
+}
+
+.list-tab .img-icon img {
+	width: 100%;
+}
+.list-tab .name{
+	flex-shrink: 0;
+}
+.list-tab .dsp{
+	width: 100%;
+	text-align: right;
+}
+.list-tab .arrow {
+	padding-right: .64rem;
+}
+
+.list-tab .icon-a12r {
+	font-family: "iconfont";
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 16px !important;
+	font-weight: bold;
+	display: block;
+	position: absolute;
+	right: 7.5px;
+	top: 50%;
+	margin-top: -8px;
+	color: #ccc;
+}
+
+.list-tab .check {
+	padding-right: .9rem;
+}
+
+.list-tab .check .rcheck {
+	position: absolute;
+	right: .24rem;
+	top: 50%;
+	margin-top: -10px;
+}
+/* list-tab end */

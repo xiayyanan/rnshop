@@ -1,0 +1,76 @@
+/*购物数量开始*/
+
+.amount {
+	height: 30px;
+	border: #c5c8ca 1px solid;
+	border-radius: 3px;
+	background: #fff;
+	position: relative;
+	display: flex;
+}
+
+.amount .Reduce {
+	width: 29px;
+	height: 28px;
+	border-right: 1px solid #c5c8ca;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.ReduceNot {
+	background: #eee;
+}
+
+.amount .Reduce:before {
+	content: '';
+	height: 2px;
+	position: absolute;
+	left: 7px;
+	right: 7px;
+	top: 50%;
+	margin-top: -1px;
+	background: #95989a;
+}
+
+.amount .Increase {
+	width: 29px;
+	height: 28px;
+	border-left: 1px solid #c5c8ca;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.amount .Increase:before {
+	content: '';
+	height: 2px;
+	position: absolute;
+	left: 7px;
+	right: 7px;
+	top: 50%;
+	margin-top: -1px;
+	background: #95989a;
+}
+
+.amount .Increase:after {
+	content: '';
+	width: 2px;
+	position: absolute;
+	top: 7px;
+	bottom: 7px;
+	left: 50%;
+	margin-left: -1px;
+	background: #95989a;
+}
+
+.amount input {
+	margin: 0;
+	width: 60px;
+	height: 28px;
+	display: block;
+	line-height: 1;
+	font-size: .32rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*购物数量结束*/
