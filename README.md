@@ -3,8 +3,11 @@
 > A Vue.js project
 
 #demo地址
+
 https://xiayyanan.github.io/rnshop/dist/
+
 #技术栈
+
 vue2.0 + vue-router + vuex + axios + mock.js(模拟数据) + ES6 + less
 
 ## Build Setup
